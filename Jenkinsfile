@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'vmslave2'
+      label 'vps'
     }
 
   }
