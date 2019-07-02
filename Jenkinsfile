@@ -11,7 +11,7 @@ pipeline {
         sh '''#!/bin/bash
 hostname
 sleep 3
-cat /proc/cpu'''
+cat /proc/cpuinfo'''
       }
     }
   }
