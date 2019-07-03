@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'vps'
+      label 'wolfpass.512'
     }
 
   }
