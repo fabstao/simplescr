@@ -3,15 +3,23 @@ pipeline {
     node {
       label 'wolfpass.512'
     }
-
   }
+  
   stages {
-    stage('stage1') {
+    stage('Bare_metal_stage') {
       steps {
         sh '''#!/bin/bash
 hostname
 sleep 3
-cat /proc/cpuinfo'''
+uname -a'''
+      }
+    }
+    stage('VM_stage') {
+      steps {
+        sh '''#!/bin/bash
+hostname
+sleep 3
+uname -a'''
       }
     }
   }
