@@ -1,7 +1,4 @@
 pipeline {
-  agent {
-    none
-  }
   stages {
     stage('VM+BM_build') {
       steps {
