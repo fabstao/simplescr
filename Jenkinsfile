@@ -11,7 +11,7 @@ hostname
 sleep 3
 uname -a'''
         }
-        node('wolfpass.512){
+        node('wolfpass.512'){
           sh '''#!/bin/bash
 hostname
 sleep 3
