@@ -12,7 +12,7 @@ uname -a'''
         node('wolfpass.512'){
           sh '''#!/bin/bash
 hostname
-sleep 3
+sleep 80
 uname -a'''
              }
       }
