@@ -14,7 +14,7 @@ uname -a'''
           sh '''#!/bin/bash
 hostname
 lscpu
-sleep 80
+sleep 15
 uname -a'''
              }
       }
